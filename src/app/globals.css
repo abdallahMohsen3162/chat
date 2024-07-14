@@ -1,0 +1,24 @@
+.messages{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-height: 70vh;
+  overflow: auto;
+}
+
+.container{
+  display: flex;
+}
+
+.container .messages{
+  width: 70%;
+}
+
+.them{
+  direction: rtl;
+  font-weight: bolder;
+}
