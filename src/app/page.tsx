@@ -20,7 +20,7 @@ export default function Home() {
   const socket = useRef<Socket | null>(null);
   
   useEffect(() => {
-    socket.current = io("ws://ballistic-hip-value.glitch.me");
+    socket.current = io("https://ballistic-hip-value.glitch.me");
 
     
     socket.current.on("connect", () => {
